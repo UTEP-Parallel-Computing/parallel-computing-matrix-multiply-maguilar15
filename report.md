@@ -1,19 +1,19 @@
 # Parallel Matrix Multiply Report 
 Manuel Aguilar
 
-## What problems you encountered completing the assignment and how you overcame them 
+### What problems you encountered completing the assignment and how you overcame them 
 
 Learning the library **pymp** is challenging. Learning this library is challenging to me because of its use of context. 
 Performing parallel operations must be inside a **with** block in python. This limits the scoping of variables accessible outside the **with** block.  
 Installing the **pymp** library was not as challenging as I thought. I was able to recreate the *parallel computing VM* using pip inside my python environment.
  
 
-## Any problems you weren't able to overcome or any bugs still left in the program 
+### Any problems you weren't able to overcome or any bugs still left in the program 
 
-No, problems with the lab. The parallel matrix algorithm does produce the correct result. 
+No problems were encountered with the lab. The parallel matrix algorithm does produce the correct result. 
 This can be verified by using the **numpy** matrix multiplier function to compare results.
 
-## About how long it took you to complete the assignment 
+### About how long it took you to complete the assignment 
 
 It took me three days to complete the assignment. I first had to import the **pymp** library and learn the syntax. 
 This is crucial in writing a parallel version of the sequential matrix multiply algorithm. I started by configuring my host machine to use the **pymp** library using pip. 
@@ -21,7 +21,7 @@ After completing that step I was doing Mr. Pruitt's examples on [Github](https:/
 in combination with the notes on the **pymp** project's [Github](https://github.com/classner/pymp) page. 
 
 
-## Performance measurements (given in seconds) for 1, 2, 4, and 8 threads 
+### Performance measurements (given in seconds) for 1, 2, 4, and 8 threads 
 
 | CPU INFO | Matrix Size | Threads Size | Seconds Elapsed |
 |---|---|:---|:---|
@@ -54,17 +54,17 @@ in combination with the notes on the **pymp** project's [Github](https://github.
 | Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 4 | 57.26949505900001 |
 | Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 8 | 29.019136984 |
 
-## A short analysis of why the program behaves as it does with an increasing number of threads 
+### A short analysis of why the program behaves as it does with an increasing number of threads 
 
-So, the parallel matrix multiply algorithm works because I cross referenced it with the **numpy** matrix multiplier function. 
+The parallel matrix multiply algorithm works because I cross referenced it with the **numpy** matrix multiplier function. 
 This was to ensure the parallel algorithm did provide the correct result. Increasing the thread size on large matrices does reduce the time to complete. 
 However, in some cases the parallel algorithm does not improve if more threads are being used. This can be seen in the table when multiplying small matrices with multiple threads. 
 
-## Any observations or comments you had while doing the assignment 
+### Any observations or comments you had while doing the assignment 
 
 In some cases the parallel matrix multiply algorithm does not improve if more threads are being used. This can be seen in the table when multiplying small matrices with multiple threads.
 
-## Output from the cpuInfoDump.sh program  
+### Output from the cpuInfoDump.sh program  
 
 ```
 model name      : Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
