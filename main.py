@@ -1,10 +1,10 @@
 from matrixUtils import *
-import os
-#Debugger
-import numpy as np
 
+import os
 # Check Time
 import time
+#Debugger
+import numpy as np
 
 
 def makeReport(template,cpuModelName:str=None, matrixSize:int=8, matrixValue:int=1, thread_test:list=[1, 2, 4, 8, 16]):
@@ -39,7 +39,6 @@ if __name__ == "__main__":
     if reportType:
         columnsNames = f"""CPU INFO,Matrix Size,Threads Size,Seconds Elapsed"""
     else:
-        #columnsNames = f"""| CPU INFO | Matrix Size | Threads Size | Seconds Elapsed |\n|----------|-------------|:---------|:---------------|"""
         columnsNames = f"""| CPU INFO | Matrix Size | Threads Size | Seconds Elapsed |\n|---|---|:---|:---|"""
 
     print(columnsNames)
