@@ -1,0 +1,48 @@
+# Parallel Matrix Multiply Report 
+
+
+# Table Report
+| CPU INFO | Matrix Size | Threads Size | Seconds Elapsed |
+|----------|-------------|:---------|:---------------|
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 1 | 0.011491964000000021 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 2 | 0.027152138999999992 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 4 | 0.026846178 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 8 | 0.034875194 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 16 | 0.04037469499999996 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 8x8 | 32 | 0.045156664999999985 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 1 | 0.04055550299999999 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 2 | 0.041368876 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 4 | 0.03757454199999999 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 8 | 0.04578497600000003 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 16 | 0.06306513299999994 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 16x16 | 32 | 0.09831599099999999 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 1 | 0.06451533500000006 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 2 | 0.065532445 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 4 | 0.073166858 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 8 | 0.05751701500000006 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 16 | 0.06758213899999999 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 32x32 | 32 | 0.08867782199999996 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 1 | 0.269460826 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 2 | 0.16058686499999997 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 4 | 0.210051663 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 8 | 0.12029142299999984 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 16 | 0.08430487099999984 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 64x64 | 32 | 0.08149229499999988 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 1 | 2.0139081479999996 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 2 | 0.8986275260000003 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 4 | 0.9986239159999997 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 8 | 0.5195930390000001 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 16 | 0.24470504200000054 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 128x128 | 32 | 0.18653641399999987 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 1 | 13.825599436 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 2 | 6.760906906999999 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 4 | 7.3473014029999995 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 8 | 3.668801705 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 16 | 1.8671019579999992 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 256x256 | 32 | 0.9836326230000054 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 1 | 113.94931882 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 2 | 56.043679677 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 4 | 58.97608407500002 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 8 | 29.319471391000036 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 16 | 14.688382978999982 |
+| Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz | 512x512 | 32 | 7.440669826000033 |
