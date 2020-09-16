@@ -30,11 +30,11 @@ if __name__ == "__main__":
 
     cpuModel = os.getenv("CPUMODEL") if os.getenv("CPUMODEL") else "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz"
     # 0:markdown ^ 1:CSV
-    reportType = os.getenv("REPORT") if os.getenv("REPORT") else 0
+    reportType = os.getenv("REPORT") if int(os.getenv("REPORT")) else int(0)
 
     # Size for Matrix multiply
     #testMatrixSize = [8,16,32,64,128,256,512,1024,2048,4096]
-    testMatrixSize = [8, 16, 32, 64, 128, 256, 512]
+    testMatrixSize = [8, 16, 32, 64, 128, 256, 512,1024]
     # Threads to execute in parallel
     thread_test = [1, 2, 4, 8, 16, 32]
 
@@ -45,4 +45,4 @@ if __name__ == "__main__":
 
     print(columnsNames)
     for e in testMatrixSize:
-        makeReport(template=templates[reportType],cpuModelName=cpuModel,matrixSize=e,matrixValue=100,thread_test=thread_test)
+        makeReport(template=templates[int(reportType)],cpuModelName=cpuModel,matrixSize=e,matrixValue=100,thread_test=thread_test)

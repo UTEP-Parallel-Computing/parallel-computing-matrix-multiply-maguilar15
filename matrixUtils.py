@@ -12,8 +12,8 @@ def parallelMultiplyMatrix(A:list,B:list,num_threads=2):
 
     with pymp.Parallel(num_threads=num_threads) as p:
         for i in p.range(0, row):
-            for j in range(0, col):
-                for k in range(0, col):
+            for j in p.range(0, col):
+                for k in p.range(0, col):
                     wresult[i][j] += A[i][k] * B[k][j]
     return wresult
 

@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f8b455c-bf36-4aa6-8ad0-ee5d43e29721" name="Default Changelist" comment="" />
+    <list default="true" id="1f8b455c-bf36-4aa6-8ad0-ee5d43e29721" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/parallel-computing-matrix-multiply-maguilar15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrixUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/matrixUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project1-shell-maguilar15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +63,8 @@
       <workItem from="1600195144322" duration="4039000" />
       <workItem from="1600199310177" duration="3009000" />
       <workItem from="1600216798896" duration="11000" />
+      <workItem from="1600233934970" duration="1845000" />
+      <workItem from="1600270408910" duration="1980000" />
     </task>
     <servers />
   </component>
